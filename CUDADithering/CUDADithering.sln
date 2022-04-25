@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CUDADithering", "CUDADithering\CUDADithering.vcxproj", "{243AD8A5-410C-4C49-BFDA-F6F4C7AB47C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{243AD8A5-410C-4C49-BFDA-F6F4C7AB47C3}.Debug|x64.ActiveCfg = Debug|x64
+		{243AD8A5-410C-4C49-BFDA-F6F4C7AB47C3}.Debug|x64.Build.0 = Debug|x64
+		{243AD8A5-410C-4C49-BFDA-F6F4C7AB47C3}.Release|x64.ActiveCfg = Release|x64
+		{243AD8A5-410C-4C49-BFDA-F6F4C7AB47C3}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE5022FE-A189-44C5-AE69-35CD132CD043}
+	EndGlobalSection
+EndGlobal
