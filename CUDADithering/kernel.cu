@@ -31,7 +31,7 @@ __global__ void test(byte* a)
                     a[i * 256 * 4 + j * 4 + 0] = 0;
                     a[i * 256 * 4 + j * 4 + 1] = 0;
                     a[i * 256 * 4 + j * 4 + 2] = 0;
-                    a[i * 256 * 4 + j * 4 + 3] = 0;
+                    a[i * 256 * 4 + j * 4 + 3] = 255;
                 }
 
                 else {
@@ -49,7 +49,6 @@ __global__ void test(byte* a)
 
 __global__ void fsd2(byte* a)
 {
-    printf("A");
     const int size = 256 * 256;
 
     int* error = (int*)malloc(size * sizeof(int));
